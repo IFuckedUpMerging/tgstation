@@ -158,11 +158,7 @@
 /obj/item/autosurgeon/syndicate/commsagent
 	desc = "A device that automatically - painfully - inserts an implant. It seems someone's specially \
 	modified this one to only insert... tongues. Horrifying."
-	starting_organ = /obj/item/organ/internal/tongue
-
-/obj/item/autosurgeon/syndicate/commsagent/Initialize(mapload)
-	. = ..()
-	organ_whitelist += /obj/item/organ/internal/tongue
+	organ_whitelist = list(/obj/item/organ/internal/tongue)
 
 /obj/item/autosurgeon/syndicate/emaggedsurgerytoolset
 	starting_organ = /obj/item/organ/internal/cyberimp/arm/surgery/emagged

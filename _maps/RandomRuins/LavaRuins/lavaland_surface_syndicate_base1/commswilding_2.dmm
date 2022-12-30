@@ -3,215 +3,264 @@
 /turf/template_noop,
 /area/template_noop)
 "b" = (
-/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
-	dir = 4
+/obj/effect/turf_decal/tile/dark_red{
+	dir = 8
 	},
-/turf/open/floor/wood,
+/turf/open/floor/iron/dark/smooth_edge{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/telecomms)
+"g" = (
+/obj/structure/table,
+/obj/item/papercutter,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 5
+	},
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/syndicate_lava_base/telecomms)
 "h" = (
-/obj/item/storage/toolbox/syndicate,
-/obj/item/multitool,
-/obj/machinery/button/door{
-	id = "lavalandsyndi_telecomms";
-	name = "Telecomms Blast Door Control";
-	pixel_x = 26;
-	req_access = list("syndicate")
+/obj/machinery/airalarm/syndicate{
+	dir = 4;
+	pixel_x = 24
 	},
 /obj/structure/rack,
-/turf/open/floor/wood,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/multitool,
+/turf/open/floor/catwalk_floor/iron_dark,
+/area/ruin/syndicate_lava_base/telecomms)
+"i" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/folder/red{
+	pixel_y = 1
+	},
+/obj/item/folder/blue{
+	pixel_y = 2
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/telecomms)
 "j" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
-	dir = 5
-	},
-/obj/structure/cable,
-/obj/effect/turf_decal/siding/wood{
+/obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/machinery/power/apc/syndicate{
-	name = "Telecommunications APC";
-	pixel_y = -25
-	},
-/turf/open/floor/wood,
+/obj/structure/cable,
+/turf/open/floor/iron/edge,
 /area/ruin/syndicate_lava_base/telecomms)
 "k" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/telecomms)
 "n" = (
-/obj/structure/noticeboard/directional/north,
+/turf/closed/wall/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/telecomms)
+"q" = (
+/obj/structure/closet/crate/secure/freezer/commsagent,
+/obj/machinery/light/small/directional/north,
+/obj/effect/turf_decal/siding/dark,
+/turf/open/floor/plating/elevatorshaft,
+/area/ruin/syndicate_lava_base/telecomms)
+"s" = (
+/obj/structure/filingcabinet/security,
+/obj/effect/turf_decal/tile/red/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/syndicate_lava_base/telecomms)
+"u" = (
+/obj/machinery/power/apc/syndicate{
+	name = "Telecommunications APC";
+	pixel_y = -25
+	},
+/obj/structure/cable,
+/turf/open/floor/catwalk_floor/iron,
+/area/ruin/syndicate_lava_base/telecomms)
+"x" = (
+/obj/machinery/computer/med_data{
+	dir = 4
+	},
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 10
+	},
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/telecomms)
+"y" = (
 /obj/effect/turf_decal/tile/red{
 	dir = 4
 	},
-/obj/effect/turf_decal/siding/wood{
+/turf/open/floor/iron/edge,
+/area/ruin/syndicate_lava_base/telecomms)
+"z" = (
+/obj/structure/chair/office/tactical,
+/turf/open/floor/iron/large,
+/area/ruin/syndicate_lava_base/telecomms)
+"D" = (
+/obj/machinery/computer/camera_advanced{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/dark_red/half/contrasted{
+	dir = 8
+	},
+/obj/item/radio/intercom/directional/north{
+	freerange = 1;
+	name = "Syndicate Radio Intercomm"
+	},
+/turf/open/floor/iron/edge{
+	dir = 4
+	},
 /area/ruin/syndicate_lava_base/telecomms)
-"q" = (
+"F" = (
+/obj/machinery/button/door{
+	id = "lavalandsyndi_telecomms";
+	name = "Telecomms Blast Door Control";
+	pixel_x = -26;
+	req_access = list("syndicate")
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/obj/machinery/computer/terminal/lavaland_syndicate/cracked_security_records{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/cobweb,
+/obj/effect/decal/cleanable/dirt/dust,
+/obj/effect/turf_decal/tile/red/diagonal_centre,
+/turf/open/floor/mineral/plastitanium,
+/area/ruin/syndicate_lava_base/telecomms)
+"H" = (
 /obj/machinery/telecomms/relay/preset/ruskie{
 	use_power = 0
 	},
-/obj/machinery/door/window/brigdoor/left/directional/south{
-	req_access = list("syndicate")
+/obj/effect/turf_decal/tile/dark/half/contrasted{
+	dir = 8
 	},
-/obj/effect/turf_decal/siding/thinplating/dark,
-/turf/open/floor/circuit/green,
-/area/ruin/syndicate_lava_base/telecomms)
-"s" = (
-/obj/machinery/light/directional/west,
-/obj/structure/filingcabinet/medical,
-/obj/effect/turf_decal/siding/thinplating/dark{
-	dir = 6
-	},
-/turf/open/floor/circuit,
-/area/ruin/syndicate_lava_base/telecomms)
-"x" = (
-/obj/structure/closet/crate/secure/freezer/commsagent,
-/turf/open/floor/plating,
-/area/ruin/syndicate_lava_base/telecomms)
-"y" = (
-/turf/open/floor/wood,
-/area/ruin/syndicate_lava_base/telecomms)
-"z" = (
-/obj/structure/chair/office{
-	dir = 4
-	},
-/turf/open/floor/iron/dark/textured,
-/area/ruin/syndicate_lava_base/telecomms)
-"D" = (
-/obj/machinery/firealarm/directional/west,
-/obj/machinery/computer/message_monitor{
-	dir = 4
-	},
-/obj/item/paper/monitorkey{
-	pixel_x = 5
-	},
-/obj/item/radio/intercom{
-	freerange = 1;
-	name = "Syndicate Radio Intercom";
-	pixel_y = -26
-	},
-/turf/open/floor/iron/dark,
-/area/ruin/syndicate_lava_base/telecomms)
-"F" = (
-/obj/machinery/light/small/directional/east,
-/obj/machinery/atmospherics/components/unary/vent_pump/on,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
-	dir = 10
-	},
-/obj/effect/turf_decal/siding/wood/corner,
-/turf/open/floor/wood,
-/area/ruin/syndicate_lava_base/telecomms)
-"H" = (
-/obj/machinery/airalarm/syndicate{
-	dir = 8;
-	pixel_x = -24
-	},
-/obj/structure/filingcabinet/security,
-/obj/effect/turf_decal/siding/thinplating/dark{
+/obj/effect/turf_decal/siding/dark{
 	dir = 4
 	},
 /turf/open/floor/circuit/red,
 /area/ruin/syndicate_lava_base/telecomms)
 "J" = (
-/turf/open/floor/iron/dark/textured_large,
+/obj/machinery/door/airlock/highsecurity{
+	name = "Primary Mission Equipment"
+	},
+/obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
+/turf/open/floor/iron/dark/side{
+	dir = 1
+	},
 /area/ruin/syndicate_lava_base/telecomms)
 "K" = (
 /obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
-/obj/machinery/door/firedoor,
 /obj/machinery/door/poddoor/preopen{
 	id = "lavalandsyndi_telecomms"
 	},
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/telecomms)
 "L" = (
-/obj/structure/falsewall/plastitanium,
-/turf/open/floor/plating,
+/obj/machinery/computer/message_monitor{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/dark_red/half/contrasted,
+/turf/open/floor/iron/edge{
+	dir = 1
+	},
 /area/ruin/syndicate_lava_base/telecomms)
 "M" = (
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/tile/red{
-	dir = 4
+/obj/item/storage/secure/safe/directional/south,
+/obj/effect/turf_decal/tile/dark_red/opposingcorners{
+	dir = 1
 	},
-/obj/effect/turf_decal/siding/wood{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/syndicate_lava_base/telecomms)
 "Q" = (
-/obj/structure/sign/poster/contraband/syndiemoth{
-	pixel_y = -32
+/obj/structure/filingcabinet/medical,
+/obj/effect/turf_decal/tile/blue/diagonal_centre,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 9
 	},
-/obj/structure/table/wood,
-/obj/item/paper_bin,
-/obj/item/pen,
-/turf/open/floor/wood,
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/syndicate_lava_base/telecomms)
 "R" = (
-/turf/open/floor/iron/dark/textured,
+/obj/structure/sign/poster/contraband/random/directional/east,
+/turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/telecomms)
 "S" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/telecomms)
 "T" = (
-/obj/structure/table/wood,
-/turf/open/floor/wood,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 1
+	},
+/turf/open/floor/mineral/titanium/tiled,
 /area/ruin/syndicate_lava_base/telecomms)
 "U" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/obj/structure/cable,
 /obj/machinery/door/airlock/hatch{
 	name = "Telecommunications"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/modular_map_connector,
-/turf/template_noop,
+/obj/structure/cable,
+/turf/open/floor/iron/large,
 /area/ruin/syndicate_lava_base/telecomms)
-"X" = (
-/obj/machinery/computer/camera_advanced{
+"V" = (
+/obj/machinery/photocopier,
+/obj/effect/turf_decal/siding/thinplating_new{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled,
+/area/ruin/syndicate_lava_base/telecomms)
+"W" = (
+/obj/structure/table/reinforced,
+/obj/structure/window/reinforced/survival_pod/spawner/east,
+/obj/effect/turf_decal/tile/dark_red{
 	dir = 8
 	},
-/obj/effect/turf_decal/tile/red,
-/obj/effect/turf_decal/siding/wood{
+/obj/item/paper_bin{
+	pixel_y = 3;
+	pixel_x = 6
+	},
+/obj/item/pen,
+/turf/open/floor/iron/corner{
+	dir = 8
+	},
+/area/ruin/syndicate_lava_base/telecomms)
+"X" = (
+/obj/machinery/door/window/survival_pod{
 	dir = 4
 	},
-/obj/machinery/newscaster/directional/south,
-/obj/structure/railing{
-	dir = 4
+/obj/machinery/newscaster/directional/north,
+/turf/open/floor/iron/large,
+/area/ruin/syndicate_lava_base/telecomms)
+"Y" = (
+/obj/structure/chair/office/tactical{
+	dir = 8
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/dark_red/opposingcorners,
+/turf/open/floor/mineral/plastitanium,
 /area/ruin/syndicate_lava_base/telecomms)
 
 (1,1,1) = {"
 a
+n
 k
 k
 k
-k
-k
+n
 a
 a
 "}
 (2,1,1) = {"
-k
+n
 k
 H
-s
+k
 D
 k
-k
-k
+n
+a
 "}
 (3,1,1) = {"
 k
@@ -220,58 +269,58 @@ R
 J
 z
 L
-x
 k
+a
 "}
 (4,1,1) = {"
 k
 k
-n
-M
+k
+k
 X
+W
 k
-k
-k
+n
 "}
 (5,1,1) = {"
-a
 K
-y
-y
+F
+x
+b
 y
 Q
-k
+s
 k
 "}
 (6,1,1) = {"
-a
 K
-y
+Y
+S
 b
 y
 T
-K
-a
+M
+k
 "}
 (7,1,1) = {"
-a
 K
-y
-S
-y
-T
 K
-a
+i
+b
+y
+g
+V
+k
 "}
 (8,1,1) = {"
 a
 K
 h
-F
+b
 j
+u
 k
 k
-a
 "}
 (9,1,1) = {"
 a

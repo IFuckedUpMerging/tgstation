@@ -32,15 +32,28 @@
 	},
 /turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/telecomms)
+"i" = (
+/obj/structure/table,
+/obj/item/reagent_containers/cup/glass/colocup,
+/obj/item/reagent_containers/cup/glass/sillycup{
+	pixel_x = 8;
+	pixel_y = -6
+	},
+/turf/open/floor/carpet/donk,
+/area/ruin/syndicate_lava_base/telecomms)
 "j" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/turf/open/floor/iron,
+/obj/structure/table,
+/obj/item/reagent_containers/cup/bowl{
+	pixel_y = 6
+	},
+/turf/open/floor/carpet/donk,
 /area/ruin/syndicate_lava_base/telecomms)
 "k" = (
 /obj/item/paper_bin,
 /obj/item/pen,
 /obj/structure/closet/cardboard,
-/turf/open/floor/iron,
+/turf/open/floor/carpet/donk,
 /area/ruin/syndicate_lava_base/telecomms)
 "m" = (
 /obj/structure/chair{
@@ -77,9 +90,6 @@
 /turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/telecomms)
 "t" = (
-/obj/structure/sign/poster/contraband/syndiemoth{
-	pixel_x = -32
-	},
 /obj/item/radio/intercom{
 	freerange = 1;
 	name = "Syndicate Radio Intercom";
@@ -90,6 +100,9 @@
 /obj/item/phone{
 	pixel_x = -4;
 	pixel_y = -4
+	},
+/obj/structure/sign/poster/contraband/moffuchis_pizza{
+	pixel_x = -32
 	},
 /turf/open/floor/iron/grimy,
 /area/ruin/syndicate_lava_base/telecomms)
@@ -174,7 +187,7 @@
 	name = "Security Office"
 	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
-/turf/template_noop,
+/turf/open/floor/iron,
 /area/ruin/syndicate_lava_base/telecomms)
 "G" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -204,8 +217,13 @@
 /area/ruin/syndicate_lava_base/telecomms)
 "K" = (
 /obj/effect/mapping_helpers/no_lava,
+/obj/item/storage/toolbox/fishing,
 /turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
+"M" = (
+/obj/effect/decal/cleanable/dirt/dust,
+/turf/open/floor/carpet/donk,
+/area/ruin/syndicate_lava_base/telecomms)
 "P" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden{
 	dir = 5
@@ -219,6 +237,7 @@
 "Q" = (
 /obj/effect/mapping_helpers/no_lava,
 /obj/structure/chair/plastic,
+/obj/item/fishing_rod,
 /turf/open/floor/plating/lavaland_atmos,
 /area/template_noop)
 "U" = (
@@ -308,7 +327,7 @@ G
 I
 C
 Z
-p
+i
 j
 G
 "}
@@ -318,7 +337,7 @@ G
 p
 s
 p
-j
+M
 k
 G
 "}

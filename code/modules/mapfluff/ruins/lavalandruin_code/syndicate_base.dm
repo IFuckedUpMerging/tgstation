@@ -43,7 +43,7 @@
 
 /obj/machinery/power/supermatter_crystal/shard/syndicate
 	name = "syndicate supermatter shard"
-	desc = "Your benefactors conveinently neglected to mention it's already assembled."
+	desc = "Your benefactors conveniently neglected to mention it's already assembled."
 	anchored = TRUE
 	radio_key = /obj/item/encryptionkey/syndicate
 	emergency_channel = "Syndicate"
@@ -56,3 +56,16 @@
 		return
 	else
 		. = ..()
+
+/// Terminals ///
+/obj/machinery/computer/terminal/lavaland_syndicate/cracked_security_records
+	name = "security records console"
+	desc = "One of the higher ups at Donk Co. - upon hearing tale of a Communications Agent who successfully instigated a unionization effort -\
+	wholeheartedly and quickly approved a grant to the facility to crack Nanotrasen security records, safe in the knowledge the operative wouldn't \
+	abuse that power. It's been two years, and this console still hasn't finished breaking their encryption for write access."
+	upperinfo = "YOU ARE RUNNING SYNDIX REVISION #21680. REPORT ANY BUGS AS YOU FIND THEM." // Points to the oldest PR (post g-code) affecting the lavaland syndicate base.
+	content = list("<b>DC-CR4CKTOOL v0.6</b><br>\
+		<i>Fast. Reliable. Strong. All your security will be newked...</i><br>", \
+		"Attempting to PWN [GLOB.station_name]'s LOSER security measures...<br>\
+		██████████/|||...")
+	tguitheme = "syndicate"

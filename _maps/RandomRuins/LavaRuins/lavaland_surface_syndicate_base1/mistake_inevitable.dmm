@@ -5,14 +5,25 @@
 "aU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/light/small/directional/south,
-/turf/open/floor/iron/dark,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/testlab)
 "be" = (
-/obj/structure/cable,
 /obj/machinery/power/apc/auto_name/directional/south{
 	req_access = list("syndicate")
 	},
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/dark_red{
+	dir = 1
+	},
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
 /turf/open/floor/iron/dark,
+/area/ruin/syndicate_lava_base/testlab)
+"bp" = (
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/half,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/syndicate_lava_base/testlab)
 "bs" = (
 /obj/machinery/button/door{
@@ -21,10 +32,10 @@
 	pixel_y = 26;
 	req_access = list("syndicate")
 	},
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "dO" = (
@@ -36,13 +47,16 @@
 /obj/effect/turf_decal/stripes/line{
 	dir = 5
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 10
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "ef" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/testlab)
 "em" = (
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
@@ -58,11 +72,14 @@
 /obj/structure/table/reinforced,
 /obj/item/paper_bin,
 /obj/item/pen,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "fY" = (
 /obj/machinery/power/energy_accumulator/grounding_rod/anchored,
-/obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "gJ" = (
@@ -79,11 +96,11 @@
 /obj/item/clothing/glasses/meson{
 	pixel_y = 5
 	},
-/obj/item/clothing/glasses/material/mining{
-	pixel_y = 2
-	},
 /obj/item/clothing/glasses/meson,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "gX" = (
 /obj/machinery/airalarm/directional/north{
@@ -108,7 +125,7 @@
 /obj/item/stock_parts/manipulator/femto,
 /obj/item/stock_parts/manipulator/femto,
 /obj/structure/rack,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/testlab)
 "hJ" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
@@ -123,7 +140,7 @@
 /area/ruin/syndicate_lava_base/testlab)
 "iQ" = (
 /obj/structure/sign/warning/explosives/alt/directional/south,
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "js" = (
@@ -135,15 +152,19 @@
 "kP" = (
 /obj/effect/turf_decal/stripes/line,
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
-/obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/testlab)
+"lq" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
 "lR" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
 /obj/machinery/power/energy_accumulator/grounding_rod/anchored,
-/obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "me" = (
@@ -152,25 +173,32 @@
 /area/ruin/syndicate_lava_base/testlab)
 "ol" = (
 /obj/machinery/firealarm/directional/east,
-/turf/open/floor/iron/dark,
+/obj/structure/closet/radiation,
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "on" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
-/obj/machinery/door/airlock/hatch{
-	name = "Experimentation Lab"
-	},
 /obj/effect/mapping_helpers/airlock/access/all/syndicate/general,
 /obj/effect/turf_decal/tile/neutral/fourcorners,
-/obj/structure/cable,
 /obj/modular_map_connector,
-/turf/open/floor/iron/dark,
+/obj/structure/cable,
+/obj/machinery/door/airlock/engineering{
+	name = "Supermatter"
+	},
+/turf/open/floor/iron/dark/textured_large,
 /area/ruin/syndicate_lava_base/testlab)
 "oo" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
 /obj/machinery/power/energy_accumulator/tesla_coil/anchored,
-/obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "oV" = (
@@ -181,18 +209,32 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
+"oW" = (
+/obj/structure/rack,
+/obj/structure/railing,
+/obj/item/storage/toolbox/syndicate,
+/obj/item/pipe_dispenser,
+/obj/item/rpd_upgrade/unwrench,
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
+"qb" = (
+/obj/effect/turf_decal/caution/stand_clear/red,
+/turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/testlab)
 "qY" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer3,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "rT" = (
 /obj/effect/turf_decal/stripes/line,
-/obj/structure/cable,
-/obj/machinery/power/emitter/welded{
+/obj/structure/cable/layer3,
+/obj/effect/turf_decal/stripes/red/line,
+/obj/effect/turf_decal/arrows/red{
 	dir = 1
 	},
 /turf/open/floor/engine,
@@ -207,39 +249,44 @@
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/testlab)
 "uG" = (
-/obj/item/storage/toolbox/syndicate,
-/obj/item/pipe_dispenser,
-/obj/item/rpd_upgrade/unwrench,
-/obj/structure/rack,
-/turf/open/floor/iron/dark,
+/obj/structure/cable,
+/obj/effect/turf_decal/tile/neutral/half{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/syndicate_lava_base/testlab)
 "uT" = (
 /obj/machinery/atmospherics/components/unary/portables_connector/visible{
 	dir = 4
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/red{
+	dir = 1
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "xD" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/testlab)
 "xI" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/neutral/half,
+/turf/open/floor/iron/dark/smooth_half,
 /area/ruin/syndicate_lava_base/testlab)
 "xT" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 10
 	},
-/obj/structure/cable,
+/obj/structure/cable/multilayer/connected,
+/obj/machinery/power/terminal,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "yO" = (
 /obj/machinery/power/supermatter_crystal/shard/syndicate,
 /obj/structure/window/reinforced/plasma/spawner,
+/obj/machinery/atmospherics/components/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Au" = (
@@ -248,7 +295,10 @@
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/light/directional/west,
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/tile/red{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "AS" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/visible,
@@ -256,9 +306,12 @@
 /area/ruin/syndicate_lava_base/testlab)
 "AV" = (
 /obj/structure/extinguisher_cabinet/directional/east,
-/obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
+/obj/structure/cable,
+/obj/effect/turf_decal/siding/dark_red{
+	dir = 1
+	},
 /turf/open/floor/iron/dark,
 /area/ruin/syndicate_lava_base/testlab)
 "Ce" = (
@@ -268,6 +321,16 @@
 	dir = 1
 	},
 /turf/open/floor/engine,
+/area/ruin/syndicate_lava_base/testlab)
+"CR" = (
+/obj/structure/closet/radiation,
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 4
+	},
+/obj/effect/turf_decal/trimline/dark_red/warning{
+	dir = 8
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "EC" = (
 /obj/machinery/door/poddoor{
@@ -279,6 +342,7 @@
 "GD" = (
 /obj/item/stack/sheet/plasmarglass,
 /obj/structure/window/reinforced/plasma/spawner,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "HC" = (
@@ -286,15 +350,19 @@
 /obj/machinery/airalarm/directional/south{
 	req_access = list("syndicate")
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/catwalk_floor/iron_dark,
 /area/ruin/syndicate_lava_base/testlab)
 "It" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/closed/wall/mineral/plastitanium/nodiagonal,
 /area/ruin/syndicate_lava_base/testlab)
 "IG" = (
-/obj/effect/spawner/structure/window/reinforced/plasma/plastitanium,
+/obj/machinery/power/emitter/welded{
+	dir = 1
+	},
 /obj/structure/cable,
+/obj/structure/railing,
+/obj/machinery/door/firedoor/border_only,
 /turf/open/floor/plating,
 /area/ruin/syndicate_lava_base/testlab)
 "JO" = (
@@ -309,10 +377,14 @@
 /obj/machinery/atmospherics/components/binary/pump{
 	dir = 4
 	},
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/textured,
+/area/ruin/syndicate_lava_base/testlab)
+"OI" = (
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
+/turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Rn" = (
-/obj/structure/cable,
+/obj/structure/cable/layer3,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Rp" = (
@@ -321,8 +393,13 @@
 	},
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
+"SU" = (
+/turf/open/floor/iron/dark/smooth_half{
+	dir = 1
+	},
+/area/ruin/syndicate_lava_base/testlab)
 "Vo" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /obj/machinery/atmospherics/pipe/bridge_pipe/scrubbers/visible{
 	dir = 4
 	},
@@ -331,14 +408,17 @@
 "Vp" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/structure/cable,
-/turf/open/floor/iron/dark,
+/turf/open/floor/iron/dark/smooth_large,
 /area/ruin/syndicate_lava_base/testlab)
 "XN" = (
 /obj/machinery/atmospherics/components/tank/nitrogen,
 /obj/effect/turf_decal/stripes/line{
 	dir = 6
 	},
-/turf/open/floor/iron/dark,
+/obj/effect/turf_decal/stripes/red/line{
+	dir = 9
+	},
+/turf/open/floor/iron/dark/textured,
 /area/ruin/syndicate_lava_base/testlab)
 "XS" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer/on{
@@ -347,22 +427,29 @@
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Yj" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/color_adapter,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 "Ys" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
 	},
-/obj/structure/cable,
+/obj/structure/cable/layer3,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
+"Zg" = (
+/obj/machinery/power/smes,
+/obj/structure/railing,
+/obj/structure/cable,
+/obj/machinery/door/firedoor/border_only,
+/turf/open/floor/plating,
+/area/ruin/syndicate_lava_base/testlab)
 "ZR" = (
-/obj/machinery/atmospherics/pipe/smart/manifold4w/cyan/visible,
 /obj/machinery/firealarm/directional/east,
+/obj/machinery/atmospherics/pipe/smart/manifold4w/green/visible,
 /turf/open/floor/engine,
 /area/ruin/syndicate_lava_base/testlab)
 
@@ -404,9 +491,9 @@ uT
 Au
 dO
 XN
-uG
-em
 kE
+eq
+lq
 xD
 aA
 aA
@@ -418,10 +505,10 @@ gX
 Lc
 Lc
 hJ
-kE
-kE
-eq
-kE
+SU
+SU
+em
+xI
 HC
 aA
 aA
@@ -435,35 +522,35 @@ qY
 qY
 Ys
 xT
-em
-kE
+Zg
+uG
 aU
 aA
 aA
 "}
 (6,1,1) = {"
 hK
-me
+OI
 XS
 fY
 GD
 oV
 js
 kP
-IG
-kE
-xI
+oW
+bp
+xD
 be
 aA
 "}
 (7,1,1) = {"
 EC
-me
+OI
 XS
 Rn
-js
+me
 yO
-js
+qb
 rT
 IG
 Vp
@@ -473,7 +560,7 @@ on
 "}
 (8,1,1) = {"
 em
-me
+OI
 AS
 oo
 JO
@@ -482,7 +569,7 @@ Rp
 lR
 em
 ol
-kE
+CR
 aA
 aA
 "}
