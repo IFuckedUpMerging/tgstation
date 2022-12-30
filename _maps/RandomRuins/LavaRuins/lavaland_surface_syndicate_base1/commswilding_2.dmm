@@ -64,9 +64,6 @@
 	dir = 1
 	},
 /area/ruin/syndicate_lava_base/telecomms)
-"n" = (
-/turf/closed/wall/mineral/plastitanium,
-/area/ruin/syndicate_lava_base/telecomms)
 "q" = (
 /obj/structure/closet/crate/secure/freezer/commsagent,
 /obj/machinery/light/small/directional/north,
@@ -294,22 +291,22 @@
 
 (1,1,1) = {"
 a
-n
 k
 k
 k
-n
+k
+k
 a
 a
 "}
 (2,1,1) = {"
-n
+k
 k
 H
 k
 D
 k
-n
+k
 a
 "}
 (3,1,1) = {"
@@ -330,7 +327,7 @@ k
 X
 W
 k
-n
+k
 "}
 (5,1,1) = {"
 K
