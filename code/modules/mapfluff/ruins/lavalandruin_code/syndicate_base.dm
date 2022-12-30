@@ -66,6 +66,6 @@
 	upperinfo = "YOU ARE RUNNING SYNDIX REVISION #21680. REPORT ANY BUGS AS YOU FIND THEM." // Points to the oldest PR (post g-code) affecting the lavaland syndicate base.
 	content = list("<b>DC-CR4CKTOOL v0.6</b><br>\
 		<i>Fast. Reliable. Strong. All your security will be newked...</i><br>", \
-		"Attempting to PWN [GLOB.station_name]'s LOSER security measures...<br>\
+		"Attempting to PWN Nanotrasen's dinky station network and their LOSER security measures...<br>\
 		██████████/|||...")
 	tguitheme = "syndicate"
