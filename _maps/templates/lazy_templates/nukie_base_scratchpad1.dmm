@@ -109,10 +109,21 @@
 	},
 /turf/open/floor/mineral/titanium/tiled,
 /area/space)
+"cw" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/space)
 "cP" = (
 /turf/closed/indestructible/fakedoor{
 	name = "Turret Munition Loading"
 	},
+/area/space)
+"cR" = (
+/obj/machinery/atmospherics/components/trinary/filter{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "de" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -131,6 +142,20 @@
 "dh" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on,
 /turf/open/floor/engine/vacuum,
+/area/space)
+"di" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/analyzer{
+	pixel_x = 2;
+	pixel_y = 1
+	},
+/obj/item/pipe_dispenser{
+	desc = "A device used to rapidly pipe things. This one has a curious abundance of warning labels.";
+	name = "Syndicate Rapid Pipe Dispenser (RPD)";
+	pixel_y = -3
+	},
+/obj/item/flamethrower/full,
+/turf/open/floor/iron/dark/textured,
 /area/space)
 "dv" = (
 /obj/effect/turf_decal/stripes/line{
@@ -151,9 +176,25 @@
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/pod/light,
 /area/space)
+"dI" = (
+/obj/machinery/atmospherics/components/binary/valve{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "ef" = (
 /obj/machinery/vending/hydronutrients,
 /turf/open/floor/mineral/titanium/tiled,
+/area/space)
+"eh" = (
+/obj/machinery/portable_atmospherics/pump/lil_pump{
+	desc = "A betrayer to pump-kind."
+	},
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/mineral/titanium/tiled/blue,
 /area/space)
 "er" = (
 /obj/effect/turf_decal/siding/wideplating_new{
@@ -216,6 +257,15 @@
 	dir = 4
 	},
 /turf/open/floor/pod/dark,
+/area/space)
+"fB" = (
+/obj/machinery/atmospherics/components/trinary/mixer{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "fK" = (
 /obj/effect/turf_decal/trimline/dark_red/warning{
@@ -396,6 +446,15 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/wood/tile,
 /area/space)
+"il" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "iC" = (
 /obj/effect/turf_decal/trimline/purple/warning{
 	dir = 8
@@ -528,10 +587,39 @@
 	},
 /turf/open/floor/iron/freezer,
 /area/space)
+"kS" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "lm" = (
 /obj/machinery/light/cold/directional/west,
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
+"lr" = (
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/obj/machinery/atmospherics/components/unary/thermomachine/heater,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"lu" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark,
+/turf/open/floor/mineral/titanium/tiled/purple,
+/area/space)
 "lN" = (
 /obj/machinery/atmospherics/components/unary/passive_vent{
 	dir = 8
@@ -659,6 +747,32 @@
 /obj/structure/sign/poster/contraband/random/directional/north,
 /turf/open/floor/iron/freezer,
 /area/space)
+"or" = (
+/obj/machinery/portable_atmospherics/canister,
+/obj/structure/window/reinforced/survival_pod/spawner/west,
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/turf/open/floor/plating,
+/area/space)
+"os" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"oD" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/effect/turf_decal/siding/dark{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 6
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "oM" = (
 /obj/effect/turf_decal/siding/white,
 /obj/effect/turf_decal/tile/dark_red{
@@ -682,6 +796,45 @@
 	pixel_x = -4
 	},
 /turf/open/floor/mineral/titanium/tiled,
+/area/space)
+"oR" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/assembly/prox_sensor{
+	pixel_x = -6;
+	pixel_y = 4
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -2;
+	pixel_y = 3
+	},
+/obj/item/assembly/signaler{
+	pixel_x = -2;
+	pixel_y = -2
+	},
+/obj/item/assembly/signaler{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/assembly/timer{
+	pixel_x = 12;
+	pixel_y = -9
+	},
+/obj/item/assembly/timer{
+	pixel_x = 15
+	},
+/obj/item/assembly/prox_sensor{
+	pixel_x = -6;
+	pixel_y = -4
+	},
+/obj/item/assembly/signaler{
+	pixel_x = 5;
+	pixel_y = 10
+	},
+/obj/item/assembly/timer{
+	pixel_x = 18;
+	pixel_y = 5
+	},
+/turf/open/floor/iron/dark/textured,
 /area/space)
 "oT" = (
 /obj/structure/table/wood,
@@ -807,6 +960,12 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/space)
+"rC" = (
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 9
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "rF" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -821,6 +980,12 @@
 /area/space)
 "rU" = (
 /turf/open/floor/catwalk_floor/titanium,
+/area/space)
+"si" = (
+/obj/machinery/atmospherics/pipe/smart/manifold/purple/visible{
+	dir = 2
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "st" = (
 /turf/open/floor/iron/dark/textured_large,
@@ -890,6 +1055,22 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
+/area/space)
+"tG" = (
+/obj/machinery/button/ignition/incinerator/ordmix{
+	id = "syn_ordmix_igniter";
+	pixel_x = -6;
+	pixel_y = 24
+	},
+/obj/machinery/button/door/directional/north{
+	pixel_x = 5;
+	id = "syn_ordmix_vent";
+	name = "Vent Control"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "tW" = (
 /obj/structure/table/reinforced,
@@ -984,6 +1165,30 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"wl" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = 8;
+	pixel_y = 4
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = 12
+	},
+/obj/item/wrench{
+	desc = "A little smidgeon of Freon...";
+	name = "Freon"
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = -8;
+	pixel_y = -4
+	},
+/obj/item/stock_parts/micro_laser/high{
+	pixel_x = -4;
+	pixel_y = -8
+	},
+/obj/item/melee/powerfist,
+/turf/open/floor/iron/dark/textured,
+/area/space)
 "wS" = (
 /obj/effect/turf_decal/siding/white{
 	dir = 4
@@ -993,6 +1198,11 @@
 "xd" = (
 /obj/machinery/computer/pandemic,
 /turf/open/floor/mineral/titanium/tiled,
+/area/space)
+"xf" = (
+/obj/machinery/portable_atmospherics/scrubber,
+/obj/effect/turf_decal/stripes/box,
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "xp" = (
 /obj/effect/turf_decal/stripes/end{
@@ -1030,6 +1240,13 @@
 /obj/structure/statue/uranium/nuke,
 /turf/open/misc/asteroid/snow/icemoon,
 /area/space)
+"yN" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 6
+	},
+/turf/open/floor/plating,
+/area/space)
 "yU" = (
 /obj/machinery/conveyor/auto{
 	dir = 1
@@ -1053,6 +1270,11 @@
 "zf" = (
 /turf/open/floor/catwalk_floor,
 /area/space)
+"zg" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/stripes/line,
+/turf/open/floor/plating,
+/area/space)
 "zi" = (
 /obj/machinery/atmospherics/components/unary/outlet_injector/monitored{
 	chamber_id = "nukiebase";
@@ -1060,6 +1282,19 @@
 	name = "syndicate air injector"
 	},
 /turf/open/floor/engine/vacuum,
+/area/space)
+"zv" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"zK" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "zO" = (
 /obj/machinery/button/door/directional/west{
@@ -1087,6 +1322,13 @@
 	dir = 4
 	},
 /turf/closed/indestructible/syndicate,
+/area/space)
+"Bk" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/obj/effect/turf_decal/stripes/line{
+	dir = 5
+	},
+/turf/open/floor/plating,
 /area/space)
 "Bs" = (
 /obj/effect/turf_decal/stripes/line,
@@ -1119,6 +1361,15 @@
 	},
 /turf/open/floor/mineral/titanium,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
+"Cn" = (
+/obj/machinery/atmospherics/pipe/smart/simple/general/visible{
+	dir = 5
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Ct" = (
 /obj/structure/railing/corner{
 	dir = 1
@@ -1150,6 +1401,13 @@
 	},
 /turf/open/floor/catwalk_floor/titanium,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
+"Dv" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "DB" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
 	dir = 4
@@ -1258,6 +1516,13 @@
 "Fr" = (
 /turf/closed/indestructible/syndicate,
 /area/space)
+"Fu" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/effect/turf_decal/siding/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/titanium/tiled/purple,
+/area/space)
 "Fx" = (
 /obj/machinery/shower/directional/east,
 /obj/effect/turf_decal/stripes/box,
@@ -1311,7 +1576,7 @@
 /area/space)
 "Hj" = (
 /obj/machinery/atmospherics/components/binary/pump/on,
-/turf/open/space/basic,
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Ht" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
@@ -1331,6 +1596,12 @@
 	},
 /obj/effect/decal/cleanable/oil/streak,
 /turf/open/floor/pod/dark,
+/area/space)
+"HD" = (
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 5
+	},
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "HF" = (
 /mob/living/simple_animal/slime,
@@ -1355,6 +1626,26 @@
 	},
 /obj/structure/lattice/catwalk,
 /turf/open/space/basic,
+/area/space)
+"Ip" = (
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
+"ID" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/obj/effect/turf_decal/stripes/line{
+	dir = 1
+	},
+/turf/open/floor/plating,
+/area/space)
+"IV" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "IY" = (
 /obj/structure/table/reinforced,
@@ -1383,6 +1674,17 @@
 /obj/effect/turf_decal/siding/white,
 /obj/effect/mapping_helpers/airlock/cyclelink_helper,
 /turf/open/floor/iron/textured_large,
+/area/space)
+"JT" = (
+/obj/structure/table/reinforced/plastitaniumglass,
+/obj/item/transfer_valve{
+	pixel_x = 5
+	},
+/obj/item/transfer_valve,
+/obj/item/transfer_valve{
+	pixel_x = -5
+	},
+/turf/open/floor/iron/dark/textured,
 /area/space)
 "Kz" = (
 /obj/machinery/vending/boozeomat,
@@ -1590,6 +1892,9 @@
 /obj/structure/sign/poster/contraband/random/directional/south,
 /turf/open/floor/iron/dark/textured,
 /area/space)
+"OX" = (
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Pa" = (
 /turf/open/floor/iron/dark/textured,
 /area/space)
@@ -1613,6 +1918,14 @@
 /obj/machinery/light/directional/north,
 /obj/effect/turf_decal/tile/bar/opposingcorners,
 /turf/open/floor/iron/dark/textured,
+/area/space)
+"Px" = (
+/obj/machinery/portable_atmospherics/canister,
+/obj/structure/window/reinforced/survival_pod/spawner/west,
+/obj/effect/turf_decal/stripes/line{
+	dir = 10
+	},
+/turf/open/floor/plating,
 /area/space)
 "Py" = (
 /turf/open/floor/iron/stairs/old,
@@ -1644,6 +1957,10 @@
 	},
 /turf/open/floor/mineral/plastitanium/red,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
+"Qc" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Qe" = (
 /obj/structure/closet/emcloset,
 /obj/item/stack/spacecash/c100,
@@ -1660,6 +1977,12 @@
 /obj/effect/turf_decal/trimline/red,
 /turf/open/floor/mineral/plastitanium,
 /area/centcom/syndicate_mothership/expansion_chemicalwarfare)
+"QM" = (
+/obj/machinery/atmospherics/components/trinary/filter{
+	dir = 2
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "QV" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/general/hidden,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/yellow/hidden/layer2,
@@ -1685,6 +2008,15 @@
 	},
 /turf/open/floor/iron/dark/textured_large,
 /area/space)
+"RO" = (
+/obj/machinery/atmospherics/pipe/smart/simple/purple/visible{
+	dir = 9
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
+/area/space)
 "Se" = (
 /obj/effect/turf_decal/stripes/end{
 	dir = 8
@@ -1706,6 +2038,17 @@
 /turf/open/floor/iron/smooth_half{
 	dir = 8
 	},
+/area/space)
+"So" = (
+/obj/machinery/computer/atmos_control/noreconnect{
+	atmos_chambers = list("nukiebase"="Burn Chamber");
+	desc = "Used to monitor the Syndicate Ordnance Laboratory's burn chamber.";
+	name = "Ordnance Chamber Monitor"
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 8
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Sp" = (
 /obj/effect/turf_decal/siding/wideplating_new/dark{
@@ -1838,7 +2181,7 @@
 /obj/machinery/atmospherics/components/binary/pump/on{
 	dir = 1
 	},
-/turf/open/space/basic,
+/turf/open/floor/mineral/plastitanium,
 /area/space)
 "Wj" = (
 /turf/closed/indestructible/rock/snow/ice,
@@ -1949,6 +2292,15 @@
 "YU" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/orange/hidden/layer5,
 /turf/closed/indestructible/syndicate,
+/area/space)
+"Zn" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 8
+	},
+/obj/effect/turf_decal/siding/thinplating_new/dark{
+	dir = 4
+	},
+/turf/open/floor/mineral/plastitanium/red,
 /area/space)
 "Zs" = (
 /obj/effect/turf_decal/trimline/purple/warning{
@@ -42495,7 +42847,7 @@ Fa
 Fa
 BV
 lS
-Fr
+Uz
 Uz
 Uz
 Uz
@@ -42752,7 +43104,7 @@ nR
 Zu
 Zu
 lS
-Fr
+Uz
 Uz
 Uz
 Uz
@@ -43009,7 +43361,7 @@ Ep
 Zu
 lS
 lS
-Fr
+Uz
 Uz
 Uz
 Uz
@@ -43267,11 +43619,11 @@ Zu
 lS
 Fr
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
+Fr
+Fr
+Fr
+Fr
+Fr
 Uz
 Uz
 Uz
@@ -43523,12 +43875,12 @@ Zu
 Zu
 Fr
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+Fu
+lu
+di
+oR
+JT
+Fr
 Uz
 Uz
 Uz
@@ -43780,14 +44132,14 @@ GR
 Lu
 Lu
 Pm
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+lr
+oD
+Pa
+Pa
+wl
+Fr
+Fr
+Fr
 Uz
 Uz
 Uz
@@ -44037,15 +44389,15 @@ kH
 Lu
 Lu
 SQ
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+Pa
+Pa
+Pa
+Pa
+Pa
+eh
+xf
+Fr
+Fr
 Uz
 Uz
 Uz
@@ -44297,12 +44649,12 @@ Fr
 Fr
 Fr
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+os
+il
+il
+Dv
+Cn
+Fr
 Uz
 Uz
 Uz
@@ -44555,11 +44907,11 @@ Pn
 dh
 xM
 Hj
-Uz
-Uz
-Uz
-Uz
-Uz
+QM
+rC
+Qc
+cR
+Fr
 Uz
 Uz
 Uz
@@ -44811,12 +45163,12 @@ Fr
 aq
 eu
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+tG
+IV
+fB
+kS
+Zn
+Fr
 Uz
 Uz
 Uz
@@ -45069,11 +45421,11 @@ Pn
 zi
 xM
 VS
-Uz
-Uz
-Uz
-Uz
-Uz
+HD
+zK
+or
+Px
+Fr
 Uz
 Uz
 Uz
@@ -45325,12 +45677,12 @@ Fr
 MT
 MT
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+So
+dI
+os
+ID
+cw
+Fr
 Uz
 Uz
 Uz
@@ -45582,12 +45934,12 @@ Fr
 HZ
 HZ
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+Qc
+si
+OX
+zv
+zg
+Fr
 Uz
 Uz
 Uz
@@ -45839,12 +46191,12 @@ Fr
 Hb
 Hb
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+IV
+RO
+Ip
+Bk
+yN
+Fr
 Uz
 Uz
 Uz
@@ -46096,12 +46448,12 @@ Fr
 lN
 pZ
 Fr
-Uz
-Uz
-Uz
-Uz
-Uz
-Uz
+Fr
+Fr
+Fr
+Fr
+Fr
+Fr
 Uz
 Uz
 Uz
