@@ -286,6 +286,8 @@ MAPPING_DIRECTIONAL_HELPERS(/obj/structure/chair/stool, 0)
 		usr.visible_message(span_notice("[usr] grabs \the [src.name]."), span_notice("You grab \the [src.name]."))
 		var/obj/item/C = new item_chair(loc)
 		C.set_custom_materials(custom_materials)
+		if(greyscale_colors)
+			C.greyscale_colors = greyscale_colors
 		TransferComponents(C)
 		usr.put_in_hands(C)
 		qdel(src)
