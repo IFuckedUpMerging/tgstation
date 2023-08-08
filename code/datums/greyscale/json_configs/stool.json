@@ -1,0 +1,28 @@
+{
+	"stool": [
+		{
+			"type": "icon_state",
+			"icon_state": "stool_base",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "stool_cover",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	],
+	"stool_toppled": [
+		{
+			"type": "icon_state",
+			"icon_state": "stool_base_toppled",
+			"blend_mode": "overlay"
+		},
+		{
+			"type": "icon_state",
+			"icon_state": "stool_cover_toppled",
+			"blend_mode": "overlay",
+			"color_ids": [ 1 ]
+		}
+	]
+}

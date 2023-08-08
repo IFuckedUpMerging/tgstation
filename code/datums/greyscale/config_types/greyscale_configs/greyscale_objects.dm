@@ -33,6 +33,20 @@
 	json_config = 'code/datums/greyscale/json_configs/bench_corner.json'
 
 //
+// STOOLS
+//
+
+/datum/greyscale_config/stool
+	name = "Stool"
+	icon_file = 'icons/obj/chairs.dmi'
+	json_config = 'code/datums/greyscale/json_configs/stool.json'
+
+/datum/greyscale_config/bar_stool
+	name = "Bar Stool"
+	icon_file = 'icons/obj/chairs.dmi'
+	json_config = 'code/datums/greyscale/json_configs/bar_stool.json'
+
+//
 // GIFTWRAP
 // (Yes, some of these are items and not large objects, but it's better they stay grouped together)
 //
