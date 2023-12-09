@@ -12,7 +12,10 @@
 	/// If this mainframe can process all syndicate chatter regardless of z level
 	var/syndicate = FALSE
 
-/obj/machinery/telecomms/allinone/nuclear
+/// The syndicate tcomm setup, for the nukie shuttle. This bad boy is why syndiecomms aren't immutable.
+/// Sits in a box on the centcom z-level until nukies spawn (or the base is loaded some other way, IE hijacking or admin shenanigans)
+/// at which point it'll be relocated into the infiltrator. Only one of these should ever exist in a given round.
+/obj/machinery/telecomms/allinone/syndicate
 	name = "advanced telecommunications mainframe"
 	desc = "A modified mainframe that allows for the processing of priority syndicate subspace telecommunications."
 	freq_listening = list(FREQ_SYNDICATE)

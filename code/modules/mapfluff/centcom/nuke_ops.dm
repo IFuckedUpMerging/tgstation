@@ -43,3 +43,15 @@
 	name = "The Walk-In Fridge"
 	desc = "Locked. Lopez sure runs a tight galley."
 	puzzle_id = "syndicate_fridge"
+
+/// Used on the syndicate infiltrator. Warps the syndiecomms machinery to itself, then qdels. Please don't use this anywhere else, unless you plan on gutting the one that exists there!
+/obj/effect/syndiecomms_spawn_helper
+	name = "SyndieComms \"Spawn\" Helper"
+	icon = 'icons/effects/landmarks_static.dmi'
+	icon_state = "syndiecomms_spawn"
+
+/obj/effect/syndiecomms_spawn_helper/Initialize(mapload)
+	. = ..()
+	var/obj/machinery/telecomms/allinone/syndicate/our_array = locate() in SSmachines.get_machines_by_type(/obj/machinery/telecomms/allinone/syndicate)
+	our_array.forceMove(loc)
+	qdel(src)

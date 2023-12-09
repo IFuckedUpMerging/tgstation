@@ -2241,7 +2241,7 @@
 /turf/open/floor/iron/dark,
 /area/centcom/tdome/administration)
 "kh" = (
-/obj/machinery/telecomms/allinone/nuclear,
+/obj/machinery/telecomms/allinone/syndicate,
 /obj/structure/sign/poster/contraband/syndicate_pistol/directional/north,
 /turf/open/indestructible/dark,
 /area/centcom/central_command_areas/admin)

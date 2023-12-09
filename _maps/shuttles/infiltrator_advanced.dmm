@@ -2008,7 +2008,7 @@
 /turf/open/floor/mineral/plastitanium/red,
 /area/shuttle/syndicate/eva)
 "JF" = (
-/obj/machinery/recharge_station,
+/obj/effect/syndiecomms_spawn_helper,
 /obj/effect/turf_decal/delivery,
 /obj/structure/window/reinforced/spawner/directional/north,
 /obj/machinery/status_display/evac{
