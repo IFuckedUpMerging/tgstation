@@ -52,6 +52,6 @@
 
 /obj/effect/syndiecomms_spawn_helper/Initialize(mapload)
 	. = ..()
-	var/obj/machinery/telecomms/allinone/syndicate/our_array = locate() in SSmachines.get_machines_by_type(/obj/machinery/telecomms/allinone/syndicate)
+	var/obj/machinery/telecomms/allinone/nuclear/our_array = locate() in SSmachines.get_machines_by_type(/obj/machinery/telecomms/allinone/nuclear)
 	our_array.forceMove(loc)
 	qdel(src)
