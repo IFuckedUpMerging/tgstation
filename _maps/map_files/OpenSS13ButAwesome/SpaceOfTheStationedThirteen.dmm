@@ -4,9 +4,19 @@
 /obj/machinery/door/window,
 /turf/open/floor/iron,
 /area/space)
+"au" = (
+/obj/machinery/door/window/right/directional/south,
+/obj/machinery/power/apc/auto_name/directional/east,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "ay" = (
 /obj/machinery/portable_atmospherics/canister/carbon_dioxide,
 /turf/open/floor/iron,
+/area/space)
+"aO" = (
+/obj/structure/window/reinforced/spawner/directional/west,
+/turf/open/floor/iron/airless,
 /area/space)
 "aR" = (
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -20,6 +30,10 @@
 /area/space)
 "bv" = (
 /obj/machinery/atmospherics/pipe/smart/manifold/dark/visible,
+/turf/open/floor/iron,
+/area/space)
+"bx" = (
+/obj/structure/closet/secure_closet/security/sec,
 /turf/open/floor/iron,
 /area/space)
 "bB" = (
@@ -58,6 +72,19 @@
 /obj/item/storage/medkit/fire,
 /turf/open/floor/iron,
 /area/space)
+"cg" = (
+/obj/machinery/computer/prisoner/gulag_teleporter_computer{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"cq" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 1
+	},
+/obj/structure/closet/wardrobe/orange,
+/turf/open/floor/iron,
+/area/space)
 "cw" = (
 /obj/machinery/light_switch/directional/north,
 /obj/structure/window/reinforced/spawner/directional/east,
@@ -75,6 +102,12 @@
 /area/space)
 "cU" = (
 /obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron,
+/area/space)
+"cZ" = (
+/obj/structure/table,
+/obj/item/storage/box/rxglasses,
+/obj/item/t_scanner,
 /turf/open/floor/iron,
 /area/space)
 "dt" = (
@@ -111,8 +144,20 @@
 /obj/structure/window/reinforced/fulltile,
 /turf/open/floor/iron,
 /area/space)
+"ev" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/iron/dark,
+/area/space)
 "ey" = (
 /obj/item/radio/intercom/directional/north,
+/turf/open/floor/iron,
+/area/space)
+"eD" = (
+/obj/machinery/door/airlock/engineering,
+/turf/open/floor/iron,
+/area/space)
+"eE" = (
+/obj/structure/chair,
 /turf/open/floor/iron,
 /area/space)
 "fm" = (
@@ -133,6 +178,13 @@
 /obj/item/implantcase/tracking,
 /turf/open/floor/iron,
 /area/space)
+"fC" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "fK" = (
 /obj/structure/window,
 /turf/open/floor/iron/dark,
@@ -143,8 +195,17 @@
 	},
 /turf/open/floor/iron/white,
 /area/space)
+"gd" = (
+/obj/structure/table,
+/obj/structure/bedsheetbin,
+/turf/open/floor/iron,
+/area/space)
 "ge" = (
 /mob/living/carbon/human/species/monkey,
+/turf/open/floor/iron,
+/area/space)
+"gf" = (
+/obj/effect/landmark/blobstart,
 /turf/open/floor/iron,
 /area/space)
 "gi" = (
@@ -183,6 +244,12 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/siphon/layer2,
 /turf/open/floor/iron,
 /area/space)
+"gP" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/assembly/signaler,
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/space)
 "gV" = (
 /obj/structure/table,
 /obj/machinery/cell_charger,
@@ -190,6 +257,12 @@
 /area/space)
 "he" = (
 /obj/effect/landmark/start/atmospheric_technician,
+/turf/open/floor/iron,
+/area/space)
+"hm" = (
+/obj/item/disk/data,
+/obj/item/disk/data,
+/obj/item/disk/data,
 /turf/open/floor/iron,
 /area/space)
 "hp" = (
@@ -205,6 +278,10 @@
 /obj/item/stack/medical/ointment,
 /obj/item/stack/medical/ointment,
 /turf/open/floor/iron/white,
+/area/space)
+"hF" = (
+/obj/machinery/modular_computer/preset/engineering,
+/turf/open/floor/iron,
 /area/space)
 "hK" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -235,6 +312,13 @@
 "ig" = (
 /obj/structure/chair{
 	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"ij" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
+	dir = 5
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -273,7 +357,13 @@
 "jB" = (
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/structure/closet/secure_closet/security/med,
 /turf/open/floor/iron/white,
+/area/space)
+"jK" = (
+/obj/structure/closet/l3closet,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
 /area/space)
 "jN" = (
 /turf/open/floor/iron,
@@ -281,6 +371,12 @@
 "jS" = (
 /obj/machinery/door/window/brigdoor/left/directional/east,
 /turf/open/floor/iron,
+/area/space)
+"jU" = (
+/obj/machinery/atmospherics/components/unary/passive_vent{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
 /area/space)
 "jX" = (
 /obj/item/paper_bin,
@@ -379,6 +475,13 @@
 /obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron/white,
 /area/space)
+"ml" = (
+/obj/structure/table,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
 "mr" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/window/right/directional/east,
@@ -417,6 +520,9 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"mL" = (
+/turf/open/floor/engine,
+/area/space)
 "mV" = (
 /obj/machinery/modular_computer/preset/id{
 	dir = 1
@@ -431,8 +537,26 @@
 /obj/machinery/camera/autoname/directional/east,
 /turf/open/floor/iron/dark,
 /area/space)
+"nt" = (
+/obj/docking_port/stationary{
+	dwidth = 2;
+	height = 5;
+	name = "fore bay 1";
+	roundstart_template = /datum/map_template/shuttle/labour/box;
+	shuttle_id = "laborcamp_home";
+	width = 9
+	},
+/turf/open/space,
+/area/space)
 "ny" = (
 /obj/machinery/computer/teleporter,
+/turf/open/floor/iron,
+/area/space)
+"nH" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron,
 /area/space)
 "nJ" = (
@@ -441,8 +565,17 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"nV" = (
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/space/basic,
+/area/space)
 "nW" = (
 /obj/effect/spawner/structure/window/hollow/middle,
+/turf/open/floor/iron,
+/area/space)
+"oh" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/stack/cable_coil,
 /turf/open/floor/iron,
 /area/space)
 "om" = (
@@ -483,6 +616,26 @@
 /obj/effect/landmark/start/medical_doctor,
 /turf/open/floor/iron/white,
 /area/space)
+"pq" = (
+/obj/machinery/door/poddoor{
+	id = "guyswowwwlooktoxinsin2024guysitssoawesomeguysitdbeawkwardifoneofyouyoinkedthismidroundandreadthisaloudhahahaluckilythatwonthappencolonthree"
+	},
+/turf/open/floor/iron,
+/area/space)
+"pr" = (
+/obj/structure/window/spawner/directional/north,
+/obj/item/disk/data,
+/obj/item/disk/data,
+/turf/open/floor/iron,
+/area/space)
+"pF" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/restraints/handcuffs,
+/obj/item/clothing/mask/muzzle,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/turf/open/floor/iron,
+/area/space)
 "pQ" = (
 /obj/structure/window,
 /obj/structure/closet,
@@ -498,10 +651,33 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"qc" = (
+/obj/machinery/gulag_teleporter,
+/turf/open/floor/iron,
+/area/space)
+"qj" = (
+/obj/structure/table,
+/obj/item/assembly/igniter,
+/obj/item/assembly/signaler,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/obj/item/assembly/timer,
+/obj/item/pen,
+/turf/open/floor/iron,
+/area/space)
 "qk" = (
 /obj/item/radio/intercom/directional/south,
 /obj/structure/bed,
 /turf/open/floor/iron/white,
+/area/space)
+"qE" = (
+/obj/item/extinguisher,
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/iron,
 /area/space)
 "qF" = (
 /turf/open/space,
@@ -563,6 +739,13 @@
 "rF" = (
 /obj/item/storage/toolbox/emergency,
 /obj/item/clothing/ears/earmuffs,
+/turf/open/floor/iron,
+/area/space)
+"rI" = (
+/obj/machinery/camera/autoname/directional/north,
+/obj/machinery/light_switch/directional/north,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/obj/item/storage/medkit/regular,
 /turf/open/floor/iron,
 /area/space)
 "rU" = (
@@ -627,10 +810,23 @@
 /obj/machinery/power/apc/auto_name/directional/north,
 /obj/structure/cable,
 /obj/machinery/camera/autoname/directional/north,
+/obj/item/paper{
+	name = "paper - A Crash Course in Legal SOP on SS13";
+	default_raw_text = "<B>Roles:</B><BR>\nThe Forensic Technician is basically the investigator and prosecutor.<BR>\nThe Staff Assistant can perform these functions with written authority from the Forensic Technician.<BR>\nThe Captain/HoP/Warden is ct as the judicial authority.<BR>\nThe Security Officers are responsible for executing warrants, security during trial, and prisoner transport.<BR>\n<BR>\n<B>Investigative Phase:</B><BR>\nAfter the crime has been committed the Forensic Technician's job is to gather evidence and try to ascertain not only who did it but what happened. He must take special care to catalogue everything and don't leave anything out. Write out all the evidence on paper. Make sure you take an appropriate number of fingerprints. IF he must ask someone questions he has permission to confront them. If the person refuses he can ask a judicial authority to write a subpoena for questioning. If again he fails to respond then that person is to be jailed as insubordinate and obstructing justice. Said person will be released after he cooperates.<BR>\n<BR>\nONCE the FT has a clear idea as to who the criminal is he is to write an arrest warrant on the piece of paper. IT MUST LIST THE CHARGES. The FT is to then go to the judicial authority and explain a small version of his case. If the case is moderately acceptable the authority should sign it. Security must then execute said warrant.<BR>\n<BR>\n<B>Pre-Pre-Trial Phase:</B><BR>\nNow a legal representative must be presented to the defendant if said defendant requests one. That person and the defendant are then to be given time to meet (in the jail IS ACCEPTABLE). The defendant and his lawyer are then to be given a copy of all the evidence that will be presented at trial (rewriting it all on paper is fine). THIS IS CALLED THE DISCOVERY PACK. With a few exceptions, THIS IS THE ONLY EVIDENCE BOTH SIDES MAY USE AT TRIAL. IF the prosecution will be seeking the death penalty it MUST be stated at this time. ALSO if the defense will be seeking not guilty by mental defect it must state this at this time to allow ample time for examination.<BR>\nNow at this time each side is to compile a list of witnesses. By default, the defendant is on both lists regardless of anything else. Also the defense and prosecution can compile more evidence beforehand BUT in order for it to be used the evidence MUST also be given to the other side.\nThe defense has time to compile motions against some evidence here.<BR>\n<B>Possible Motions:</B><BR>\n1. <U>Invalidate Evidence-</U> Something with the evidence is wrong and the evidence is to be thrown out. This includes irrelevance or corrupt security.<BR>\n2. <U>Free Movement-</U> Basically the defendant is to be kept uncuffed before and during the trial.<BR>\n3. <U>Subpoena Witness-</U> If the defense presents god reasons for needing a witness but said person fails to cooperate then a subpoena is issued.<BR>\n4. <U>Drop the Charges-</U> Not enough evidence is there for a trial so the charges are to be dropped. The FT CAN RETRY but the judicial authority must carefully reexamine the new evidence.<BR>\n5. <U>Declare Incompetent-</U> Basically the defendant is insane. Once this is granted a medical official is to examine the patient. If he is indeed insane he is to be placed under care of the medical staff until he is deemed competent to stand trial.<BR>\n<BR>\nALL SIDES MOVE TO A COURTROOM<BR>\n<B>Pre-Trial Hearings:</B><BR>\nA judicial authority and the 2 sides are to meet in the trial room. NO ONE ELSE BESIDES A SECURITY DETAIL IS TO BE PRESENT. The defense submits a plea. If the plea is guilty then proceed directly to sentencing phase. Now the sides each present their motions to the judicial authority. He rules on them. Each side can debate each motion. Then the judicial authority gets a list of crew members. He first gets a chance to look at them all and pick out acceptable and available jurors. Those jurors are then called over. Each side can ask a few questions and dismiss jurors they find too biased. HOWEVER before dismissal the judicial authority MUST agree to the reasoning.<BR>\n<BR>\n<B>The Trial:</B><BR>\nThe trial has three phases.<BR>\n1. <B>Opening Arguments</B>- Each side can give a short speech. They may not present ANY evidence.<BR>\n2. <B>Witness Calling/Evidence Presentation</B>- The prosecution goes first and is able to call the witnesses on his approved list in any order. He can recall them if necessary. During the questioning the lawyer may use the evidence in the questions to help prove a point. After every witness the other side has a chance to cross-examine. After both sides are done questioning a witness the prosecution can present another or recall one (even the EXACT same one again!). After prosecution is done the defense can call witnesses. After the initial cases are presented both sides are free to call witnesses on either list.<BR>\nFINALLY once both sides are done calling witnesses we move onto the next phase.<BR>\n3. <B>Closing Arguments</B>- Same as opening.<BR>\nThe jury then deliberates IN PRIVATE. THEY MUST ALL AGREE on a verdict. REMEMBER: They mix between some charges being guilty and others not guilty (IE if you supposedly killed someone with a gun and you unfortunately picked up a gun without authorization then you CAN be found not guilty of murder BUT guilty of possession of illegal weaponry.). Once they have agreed they present their verdict. If unable to reach a verdict and feel they will never they call a deadlocked jury and we restart at Pre-Trial phase with an entirely new set of jurors.<BR>\n<BR>\n<B>Sentencing Phase:</B><BR>\nIf the death penalty was sought (you MUST have gone through a trial for death penalty) then skip to the second part. <BR>\nI. Each side can present more evidence/witnesses in any order. There is NO ban on emotional aspects or anything. The prosecution is to submit a suggested penalty. After all the sides are done then the judicial authority is to give a sentence.<BR>\nII. The jury stays and does the same thing as I. Their sole job is to determine if the death penalty is applicable. If NOT then the judge selects a sentence.<BR>\n<BR>\nTADA you're done. Security then executes the sentence and adds the applicable convictions to the person's record.<BR>\n"
+	},
+/turf/open/floor/iron,
+/area/space)
+"ta" = (
+/obj/machinery/door/airlock/research,
 /turf/open/floor/iron,
 /area/space)
 "te" = (
 /obj/machinery/computer/communications,
+/turf/open/floor/iron,
+/area/space)
+"tm" = (
+/obj/structure/table,
+/obj/item/radio,
 /turf/open/floor/iron,
 /area/space)
 "tr" = (
@@ -729,6 +925,10 @@
 /obj/item/multitool,
 /turf/open/floor/iron,
 /area/space)
+"vT" = (
+/obj/structure/window/reinforced/spawner/directional/east,
+/turf/open/floor/iron/airless,
+/area/space)
 "wd" = (
 /obj/structure/window,
 /turf/open/floor/iron,
@@ -737,9 +937,22 @@
 /obj/structure/window/spawner/directional/north,
 /turf/open/floor/iron/dark,
 /area/space)
+"wi" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/clipboard,
+/obj/item/clipboard,
+/obj/item/clipboard,
+/obj/item/clipboard,
+/turf/open/floor/iron,
+/area/space)
 "wm" = (
 /obj/machinery/airalarm/directional/north,
 /obj/structure/closet,
+/turf/open/floor/iron,
+/area/space)
+"wt" = (
+/obj/machinery/camera/autoname/directional/east,
+/obj/item/radio/intercom/directional/east,
 /turf/open/floor/iron,
 /area/space)
 "wG" = (
@@ -824,6 +1037,15 @@
 /obj/structure/cable,
 /turf/open/floor/iron,
 /area/space)
+"yW" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/obj/item/crowbar,
+/obj/item/clothing/glasses/meson,
+/obj/item/clothing/glasses/sunglasses,
+/obj/item/clothing/ears/earmuffs,
+/turf/open/floor/iron,
+/area/space)
 "yZ" = (
 /obj/machinery/door/morgue{
 	name = "coffin storage";
@@ -844,6 +1066,23 @@
 /obj/item/assembly/signaler,
 /turf/open/floor/iron,
 /area/space)
+"zk" = (
+/obj/structure/chair{
+	dir = 1
+	},
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron,
+/area/space)
+"zo" = (
+/obj/machinery/computer/atmos_alert{
+	dir = 1
+	},
+/obj/machinery/button/door/directional/south{
+	id = "guyswowwwlooktoxinsin2024guysitssoawesomeguysitdbeawkwardifoneofyouyoinkedthismidroundandreadthisaloudhahahaluckilythatwonthappencolonthree";
+	name = "Blast Door Controls"
+	},
+/turf/open/floor/iron,
+/area/space)
 "zy" = (
 /obj/structure/table,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
@@ -856,6 +1095,26 @@
 	pixel_y = 8
 	},
 /obj/item/hand_tele,
+/turf/open/floor/iron,
+/area/space)
+"zD" = (
+/obj/item/transfer_valve,
+/turf/open/floor/iron/dark,
+/area/space)
+"zM" = (
+/obj/machinery/firealarm/directional/west,
+/turf/open/floor/iron/dark,
+/area/space)
+"zX" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible{
+	dir = 1
+	},
+/obj/machinery/light_switch/directional/east,
+/turf/open/floor/iron,
+/area/space)
+"zY" = (
+/obj/machinery/camera/autoname/directional/west,
+/obj/machinery/light_switch/directional/north,
 /turf/open/floor/iron,
 /area/space)
 "Aa" = (
@@ -886,6 +1145,11 @@
 /obj/structure/closet/l3closet,
 /turf/open/floor/iron,
 /area/space)
+"Ao" = (
+/obj/machinery/portable_atmospherics/pump,
+/obj/effect/landmark/blobstart,
+/turf/open/floor/iron,
+/area/space)
 "As" = (
 /obj/machinery/light_switch/directional/west,
 /obj/machinery/door/window/brigdoor/left/directional/south,
@@ -909,6 +1173,10 @@
 /obj/structure/window/spawner/directional/east,
 /turf/open/floor/iron,
 /area/space)
+"Bc" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/turf/open/floor/iron,
+/area/space)
 "Bi" = (
 /obj/machinery/atmospherics/pipe/smart/simple/dark/visible{
 	dir = 10
@@ -930,6 +1198,17 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"Bx" = (
+/obj/structure/grille,
+/turf/open/space/basic,
+/area/space)
+"Bz" = (
+/obj/structure/chair{
+	dir = 8
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
+/area/space)
 "BE" = (
 /obj/structure/table,
 /obj/item/restraints/handcuffs,
@@ -947,6 +1226,13 @@
 	dir = 1
 	},
 /turf/open/floor/iron/white,
+/area/space)
+"BO" = (
+/obj/effect/landmark/blobstart,
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/iron,
 /area/space)
 "BV" = (
 /obj/machinery/door/window/left/directional/east,
@@ -1044,6 +1330,12 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"DE" = (
+/obj/structure/table,
+/obj/item/storage/toolbox/emergency,
+/obj/item/clothing/glasses/sunglasses,
+/turf/open/floor/iron,
+/area/space)
 "DF" = (
 /obj/structure/cable,
 /turf/open/floor/iron,
@@ -1078,6 +1370,10 @@
 "Es" = (
 /obj/structure/window/spawner/directional/north,
 /turf/open/space,
+/area/space)
+"EB" = (
+/obj/item/stack/sheet/iron/fifty,
+/turf/open/floor/iron,
 /area/space)
 "ED" = (
 /obj/structure/reagent_dispensers/watertank,
@@ -1160,6 +1456,10 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
 /turf/open/floor/iron/white,
 /area/space)
+"GQ" = (
+/obj/item/disk/data,
+/turf/open/floor/iron,
+/area/space)
 "Hf" = (
 /obj/machinery/door/window/brigdoor/left/directional/south,
 /turf/open/floor/iron,
@@ -1180,6 +1480,10 @@
 /obj/effect/landmark/start/geneticist,
 /turf/open/floor/iron,
 /area/space)
+"HJ" = (
+/obj/item/assembly/infra,
+/turf/open/floor/iron,
+/area/space)
 "HY" = (
 /obj/structure/window/spawner/directional/east,
 /obj/machinery/power/apc/auto_name/directional/south,
@@ -1198,6 +1502,17 @@
 	dir = 8
 	},
 /turf/open/floor/iron/dark,
+/area/space)
+"Ii" = (
+/obj/effect/spawner/structure/window/hollow/reinforced/middle,
+/obj/machinery/atmospherics/pipe/smart/manifold/dark/visible{
+	dir = 4
+	},
+/turf/open/floor/iron,
+/area/space)
+"In" = (
+/obj/machinery/autolathe,
+/turf/open/floor/iron,
 /area/space)
 "Iw" = (
 /obj/structure/window/reinforced/spawner/directional/west,
@@ -1228,6 +1543,10 @@
 	},
 /turf/open/floor/iron/dark,
 /area/space)
+"Jf" = (
+/obj/machinery/computer/shuttle/labor,
+/turf/open/floor/iron,
+/area/space)
 "Jj" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 1
@@ -1244,8 +1563,25 @@
 /obj/machinery/light_switch/directional/south,
 /turf/open/floor/iron,
 /area/space)
+"JR" = (
+/obj/structure/table,
+/obj/structure/window/spawner/directional/west,
+/turf/open/floor/iron,
+/area/space)
 "JT" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
+/turf/open/floor/iron,
+/area/space)
+"JV" = (
+/obj/machinery/gulag_item_reclaimer{
+	pixel_y = 28
+	},
+/turf/open/floor/iron,
+/area/space)
+"JW" = (
+/obj/structure/chair{
+	dir = 8
+	},
 /turf/open/floor/iron,
 /area/space)
 "JX" = (
@@ -1262,9 +1598,35 @@
 /obj/machinery/camera/autoname/directional/north,
 /turf/open/floor/iron,
 /area/space)
+"Kn" = (
+/obj/structure/table,
+/obj/item/assembly/igniter,
+/obj/item/assembly/signaler,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/igniter,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/obj/item/assembly/timer,
+/obj/item/storage/medkit/regular,
+/obj/item/storage/pill_bottle/multiver,
+/turf/open/floor/iron,
+/area/space)
+"Ko" = (
+/obj/structure/table,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
 "KG" = (
 /obj/structure/table,
 /obj/machinery/firealarm/directional/north,
+/turf/open/floor/iron,
+/area/space)
+"KI" = (
+/obj/machinery/door/window/right/directional/east,
 /turf/open/floor/iron,
 /area/space)
 "KJ" = (
@@ -1312,6 +1674,11 @@
 /obj/structure/table,
 /turf/open/floor/iron,
 /area/space)
+"LQ" = (
+/obj/machinery/power/apc/auto_name/directional/north,
+/obj/structure/cable,
+/turf/open/floor/iron,
+/area/space)
 "Ml" = (
 /obj/machinery/computer/atmos_alert,
 /obj/structure/window/spawner/directional/east,
@@ -1341,9 +1708,22 @@
 /obj/item/radio/intercom/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"MI" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/storage/backpack,
+/obj/item/crowbar,
+/obj/item/clothing/gloves/color/black,
+/turf/open/floor/iron,
+/area/space)
 "MP" = (
 /obj/structure/bed,
 /obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron,
+/area/space)
+"MS" = (
+/obj/machinery/power/apc/auto_name/directional/south,
+/obj/structure/cable,
+/obj/effect/landmark/blobstart,
 /turf/open/floor/iron,
 /area/space)
 "Nc" = (
@@ -1424,8 +1804,21 @@
 /obj/machinery/door/firedoor,
 /turf/open/floor/iron/white,
 /area/space)
+"Pb" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/machinery/camera/autoname/directional/east,
+/turf/open/floor/iron,
+/area/space)
 "Pl" = (
 /obj/machinery/computer/monitor,
+/turf/open/floor/iron,
+/area/space)
+"Po" = (
+/obj/structure/table,
+/obj/item/paper{
+	name = "paper - A Crash Course in Legal SOP on SS13";
+	default_raw_text = "<B>Roles:</B><BR>\nThe Forensic Technician is basically the investigator and prosecutor.<BR>\nThe Staff Assistant can perform these functions with written authority from the Forensic Technician.<BR>\nThe Captain/HoP/Warden is ct as the judicial authority.<BR>\nThe Security Officers are responsible for executing warrants, security during trial, and prisoner transport.<BR>\n<BR>\n<B>Investigative Phase:</B><BR>\nAfter the crime has been committed the Forensic Technician's job is to gather evidence and try to ascertain not only who did it but what happened. He must take special care to catalogue everything and don't leave anything out. Write out all the evidence on paper. Make sure you take an appropriate number of fingerprints. IF he must ask someone questions he has permission to confront them. If the person refuses he can ask a judicial authority to write a subpoena for questioning. If again he fails to respond then that person is to be jailed as insubordinate and obstructing justice. Said person will be released after he cooperates.<BR>\n<BR>\nONCE the FT has a clear idea as to who the criminal is he is to write an arrest warrant on the piece of paper. IT MUST LIST THE CHARGES. The FT is to then go to the judicial authority and explain a small version of his case. If the case is moderately acceptable the authority should sign it. Security must then execute said warrant.<BR>\n<BR>\n<B>Pre-Pre-Trial Phase:</B><BR>\nNow a legal representative must be presented to the defendant if said defendant requests one. That person and the defendant are then to be given time to meet (in the jail IS ACCEPTABLE). The defendant and his lawyer are then to be given a copy of all the evidence that will be presented at trial (rewriting it all on paper is fine). THIS IS CALLED THE DISCOVERY PACK. With a few exceptions, THIS IS THE ONLY EVIDENCE BOTH SIDES MAY USE AT TRIAL. IF the prosecution will be seeking the death penalty it MUST be stated at this time. ALSO if the defense will be seeking not guilty by mental defect it must state this at this time to allow ample time for examination.<BR>\nNow at this time each side is to compile a list of witnesses. By default, the defendant is on both lists regardless of anything else. Also the defense and prosecution can compile more evidence beforehand BUT in order for it to be used the evidence MUST also be given to the other side.\nThe defense has time to compile motions against some evidence here.<BR>\n<B>Possible Motions:</B><BR>\n1. <U>Invalidate Evidence-</U> Something with the evidence is wrong and the evidence is to be thrown out. This includes irrelevance or corrupt security.<BR>\n2. <U>Free Movement-</U> Basically the defendant is to be kept uncuffed before and during the trial.<BR>\n3. <U>Subpoena Witness-</U> If the defense presents god reasons for needing a witness but said person fails to cooperate then a subpoena is issued.<BR>\n4. <U>Drop the Charges-</U> Not enough evidence is there for a trial so the charges are to be dropped. The FT CAN RETRY but the judicial authority must carefully reexamine the new evidence.<BR>\n5. <U>Declare Incompetent-</U> Basically the defendant is insane. Once this is granted a medical official is to examine the patient. If he is indeed insane he is to be placed under care of the medical staff until he is deemed competent to stand trial.<BR>\n<BR>\nALL SIDES MOVE TO A COURTROOM<BR>\n<B>Pre-Trial Hearings:</B><BR>\nA judicial authority and the 2 sides are to meet in the trial room. NO ONE ELSE BESIDES A SECURITY DETAIL IS TO BE PRESENT. The defense submits a plea. If the plea is guilty then proceed directly to sentencing phase. Now the sides each present their motions to the judicial authority. He rules on them. Each side can debate each motion. Then the judicial authority gets a list of crew members. He first gets a chance to look at them all and pick out acceptable and available jurors. Those jurors are then called over. Each side can ask a few questions and dismiss jurors they find too biased. HOWEVER before dismissal the judicial authority MUST agree to the reasoning.<BR>\n<BR>\n<B>The Trial:</B><BR>\nThe trial has three phases.<BR>\n1. <B>Opening Arguments</B>- Each side can give a short speech. They may not present ANY evidence.<BR>\n2. <B>Witness Calling/Evidence Presentation</B>- The prosecution goes first and is able to call the witnesses on his approved list in any order. He can recall them if necessary. During the questioning the lawyer may use the evidence in the questions to help prove a point. After every witness the other side has a chance to cross-examine. After both sides are done questioning a witness the prosecution can present another or recall one (even the EXACT same one again!). After prosecution is done the defense can call witnesses. After the initial cases are presented both sides are free to call witnesses on either list.<BR>\nFINALLY once both sides are done calling witnesses we move onto the next phase.<BR>\n3. <B>Closing Arguments</B>- Same as opening.<BR>\nThe jury then deliberates IN PRIVATE. THEY MUST ALL AGREE on a verdict. REMEMBER: They mix between some charges being guilty and others not guilty (IE if you supposedly killed someone with a gun and you unfortunately picked up a gun without authorization then you CAN be found not guilty of murder BUT guilty of possession of illegal weaponry.). Once they have agreed they present their verdict. If unable to reach a verdict and feel they will never they call a deadlocked jury and we restart at Pre-Trial phase with an entirely new set of jurors.<BR>\n<BR>\n<B>Sentencing Phase:</B><BR>\nIf the death penalty was sought (you MUST have gone through a trial for death penalty) then skip to the second part. <BR>\nI. Each side can present more evidence/witnesses in any order. There is NO ban on emotional aspects or anything. The prosecution is to submit a suggested penalty. After all the sides are done then the judicial authority is to give a sentence.<BR>\nII. The jury stays and does the same thing as I. Their sole job is to determine if the death penalty is applicable. If NOT then the judge selects a sentence.<BR>\n<BR>\nTADA you're done. Security then executes the sentence and adds the applicable convictions to the person's record.<BR>\n"
+	},
 /turf/open/floor/iron,
 /area/space)
 "Px" = (
@@ -1441,9 +1834,22 @@
 "PB" = (
 /obj/structure/table,
 /obj/item/paper{
-	name = "Service";
+	name = "paper - Service";
 	default_raw_text = "I am the resurrection and the life, saith the Lord: he that believeth in me, though he were dead, yet shall he live: and whosoever liveth and believeth in me shall never die.  <p><i> S. John 11. 25, 26</i>"
 	},
+/turf/open/floor/iron/dark,
+/area/space)
+"PG" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/restraints/handcuffs,
+/obj/item/clothing/mask/muzzle,
+/obj/item/assembly/timer,
+/obj/item/assembly/signaler,
+/obj/item/assembly/signaler,
+/turf/open/floor/iron,
+/area/space)
+"PH" = (
+/obj/structure/closet/secure_closet/security/science,
 /turf/open/floor/iron/dark,
 /area/space)
 "PI" = (
@@ -1468,6 +1874,11 @@
 	},
 /turf/open/floor/iron,
 /area/space)
+"PQ" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4,
+/obj/effect/landmark/blobstart,
+/turf/open/floor/iron,
+/area/space)
 "PR" = (
 /obj/structure/grille,
 /turf/open/floor/iron,
@@ -1479,11 +1890,22 @@
 /obj/machinery/camera/autoname/directional/west,
 /turf/open/floor/iron,
 /area/space)
+"Qj" = (
+/obj/item/beacon,
+/turf/open/floor/iron,
+/area/space)
 "Qn" = (
 /obj/machinery/atmospherics/components/unary/portables_connector{
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron,
+/area/space)
+"Qv" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2{
+	dir = 8
+	},
+/obj/structure/reagent_dispensers/watertank,
 /turf/open/floor/iron,
 /area/space)
 "QE" = (
@@ -1502,6 +1924,13 @@
 /obj/structure/window/spawner/directional/west,
 /obj/machinery/portable_atmospherics/canister/oxygen,
 /obj/machinery/firealarm/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"Rn" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 4
+	},
+/obj/item/assembly/infra,
 /turf/open/floor/iron,
 /area/space)
 "Rv" = (
@@ -1557,8 +1986,20 @@
 /obj/item/extinguisher,
 /turf/open/floor/iron,
 /area/space)
+"SN" = (
+/obj/machinery/airalarm/directional/north,
+/obj/machinery/camera/autoname/directional/west,
+/turf/open/floor/iron,
+/area/space)
 "SW" = (
 /obj/structure/closet/secure_closet/detective,
+/turf/open/floor/iron,
+/area/space)
+"Td" = (
+/obj/structure/table,
+/obj/item/paper_bin,
+/obj/item/stack/wrapping_paper,
+/obj/item/flashlight,
 /turf/open/floor/iron,
 /area/space)
 "Th" = (
@@ -1611,6 +2052,11 @@
 /obj/item/paper,
 /turf/open/floor/iron/white,
 /area/space)
+"Uu" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/multitool,
+/turf/open/floor/iron,
+/area/space)
 "UA" = (
 /obj/effect/spawner/structure/window/hollow/reinforced/directional{
 	dir = 4
@@ -1626,6 +2072,10 @@
 /area/space)
 "UW" = (
 /obj/machinery/door/airlock/command,
+/turf/open/floor/iron,
+/area/space)
+"Vb" = (
+/obj/effect/landmark/start/scientist,
 /turf/open/floor/iron,
 /area/space)
 "Ve" = (
@@ -1704,6 +2154,11 @@
 "VX" = (
 /turf/open/floor/iron/dark,
 /area/space)
+"Wc" = (
+/obj/machinery/firealarm/directional/west,
+/obj/machinery/atmospherics/pipe/smart/simple/dark/visible,
+/turf/open/floor/iron,
+/area/space)
 "Wd" = (
 /obj/machinery/firealarm/directional/west,
 /obj/structure/bed,
@@ -1716,6 +2171,10 @@
 /area/space)
 "Wi" = (
 /obj/structure/bodycontainer/morgue,
+/turf/open/floor/iron,
+/area/space)
+"Wo" = (
+/obj/structure/closet/wardrobe/grey,
 /turf/open/floor/iron,
 /area/space)
 "Ws" = (
@@ -1772,6 +2231,11 @@
 /obj/item/flashlight,
 /turf/open/floor/iron,
 /area/space)
+"XL" = (
+/obj/machinery/atmospherics/components/unary/portables_connector/visible,
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/open/floor/iron,
+/area/space)
 "XP" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer2,
 /obj/machinery/airalarm/directional/north,
@@ -1789,6 +2253,13 @@
 /obj/machinery/portable_atmospherics/canister/nitrogen,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
 	dir = 1
+	},
+/turf/open/floor/iron,
+/area/space)
+"Ye" = (
+/obj/machinery/atmospherics/components/unary/thermomachine/heater/on,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer4{
+	dir = 8
 	},
 /turf/open/floor/iron,
 /area/space)
@@ -1833,6 +2304,7 @@
 "YX" = (
 /obj/machinery/camera/autoname/directional/west,
 /obj/machinery/firealarm/directional/west,
+/mob/living/carbon/human/species/monkey/punpun,
 /turf/open/floor/iron,
 /area/space)
 "Za" = (
@@ -1875,6 +2347,11 @@
 /area/space)
 "ZX" = (
 /obj/machinery/door/window/left/directional/south,
+/turf/open/floor/iron,
+/area/space)
+"ZY" = (
+/obj/item/stack/sheet/iron/fifty,
+/obj/item/storage/toolbox/electrical,
 /turf/open/floor/iron,
 /area/space)
 
@@ -6969,14 +7446,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+mL
+Ot
+mL
+Ot
+mL
+Ot
+mL
 Ot
 qF
 nW
@@ -7226,14 +7703,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+mL
+Ot
+mL
+Ot
+mL
+Ot
+mL
 Ot
 qF
 Ot
@@ -7483,14 +7960,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+mL
+Ot
+mL
+Ot
+mL
+Ot
+mL
 Ot
 Ot
 Ot
@@ -7740,14 +8217,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+jN
+jN
+jN
+jN
+jN
+jN
+jN
+jN
 Ot
 qF
 Ot
@@ -7997,14 +8474,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+jN
+jN
+jN
+jN
+jN
+jN
+jN
 Ot
 qF
 Ot
@@ -8254,14 +8731,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+Ot
+Ot
+Ot
+BV
+Ot
+Ot
+Ot
 Ot
 qF
 Ot
@@ -8513,12 +8990,12 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+bV
+oz
+oz
+nJ
+nJ
 Ot
 Ot
 Ot
@@ -8770,15 +9247,15 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+hF
 jN
 jN
 jN
+JT
+qH
+jN
+qH
 Tu
 Tu
 Tu
@@ -9027,12 +9504,12 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+te
+hK
+Fv
+hY
+SJ
 Ot
 Ot
 Ot
@@ -9284,12 +9761,12 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+Ot
+Ot
+Ot
+Ot
+eD
 Ot
 Ot
 Ot
@@ -9545,9 +10022,9 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-qF
+rb
+eD
+rb
 qF
 Ot
 Bq
@@ -11869,8 +12346,8 @@ jN
 pQ
 uk
 BV
-yM
-jN
+pr
+GQ
 gi
 Ot
 Ot
@@ -12898,17 +13375,17 @@ Vm
 yv
 jN
 rU
-jN
+GQ
 gi
 Ot
 bR
 jN
 rU
 rb
-xG
-xG
-xG
-xG
+bx
+bx
+bx
+bx
 uf
 VE
 rb
@@ -13155,7 +13632,7 @@ wd
 gi
 gi
 jN
-jN
+hm
 gi
 Ot
 Nv
@@ -13395,15 +13872,15 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+rb
+rb
+rb
+rb
+eD
+rb
+rb
 qF
-qF
+Ot
 Ot
 Ot
 Ot
@@ -13652,20 +14129,20 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+Ot
+Ot
+Ot
+BV
+Ot
+Ot
+Ot
+Ot
+jN
+SN
+jN
+jN
+nJ
 Ot
 nJ
 jN
@@ -13909,20 +14386,20 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+Ot
+ED
+jN
+PQ
+jN
+Nv
+jN
+jN
+jN
+jN
+jN
+jN
+jN
 Nv
 jN
 jN
@@ -14166,20 +14643,20 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+Ot
+jN
+jN
+jN
+jN
+Nv
+jN
+jN
+jN
+jN
+jN
+jN
+jN
 Nv
 jN
 jN
@@ -14423,20 +14900,20 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+Ot
+jN
+GC
+Xl
+jN
+Nv
+jN
+jN
+JT
+jN
+jN
+Fv
+hY
 Ot
 IF
 jN
@@ -14681,17 +15158,17 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+Ot
+BV
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+BV
+Ot
 Ot
 Ot
 Ot
@@ -14941,14 +15418,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+Ot
+yb
+yW
+yW
+Ot
+oz
+jN
+nJ
 Ot
 JX
 Dy
@@ -15198,14 +15675,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+Ot
+MI
+Rn
+nJ
+Ot
+jN
+ge
+sG
 Ot
 jN
 jN
@@ -15455,14 +15932,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+ZX
+Fv
+Qj
+HJ
+ZX
+jN
+jN
+jN
 Ot
 jN
 jN
@@ -15712,14 +16189,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+Ot
+Ot
+rI
+jN
+Ot
+JX
+jN
+jN
 ZX
 jN
 jN
@@ -15969,14 +16446,14 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
+Ot
+gd
+jN
+jN
+Ot
+Ot
+KI
+rb
 rb
 rb
 rb
@@ -16226,18 +16703,18 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+Td
+jN
+MI
+Ot
+oz
+nJ
+rb
+cU
+cU
+cU
+ED
 rb
 hY
 jN
@@ -16246,9 +16723,9 @@ hY
 jN
 jN
 Nv
+GC
 jN
-jN
-jN
+gw
 jN
 jN
 jN
@@ -16483,21 +16960,21 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-rb
+Ot
+cZ
+jN
+gP
+Ot
+jN
+jN
 rb
 jN
+jN
+WX
+bV
+rb
+rb
+ta
 rb
 rb
 rb
@@ -16740,27 +17217,27 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+wi
+bR
+pF
+Ot
+jN
+jN
+rb
+Vn
+jN
+WX
+bV
+rb
+Ot
+Nv
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
 Ot
 tE
 Ot
@@ -16997,29 +17474,29 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+oh
+jN
+PG
+Ot
 jN
 jN
+rb
+Vn
+jN
+WX
+bV
+rb
+jK
+jN
+sl
+Dy
+kX
+jN
+jN
+jN
+ta
+MS
 Ot
 DB
 rb
@@ -17254,29 +17731,29 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
 Ot
+oh
+rU
+oh
 Ot
 jN
+jN
+rb
+Vn
+jN
+jN
+jN
+ta
+jN
+jN
+jN
+jN
+jN
+Ot
+Ot
+Ot
+Ot
+ta
 Ot
 PR
 rb
@@ -17511,32 +17988,32 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-nb
-VX
-VX
-VX
-VX
+Ot
+EB
 jN
+ZY
+Ot
+jN
+jN
+rb
+jN
+jN
+jN
+sG
+rb
+jN
+jN
+jN
+jN
+jN
+XL
+Wc
+ij
+VX
+VX
+zM
+VX
+pq
 EP
 qF
 qF
@@ -17768,32 +18245,32 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-nb
-VX
-VX
-VX
-VX
+Ot
+Uu
+uL
+EB
+Ot
 jN
+jN
+rb
+LQ
+bV
+bV
+bV
+rb
+DE
+Cz
+jN
+Vb
+jN
+Bc
+CL
+Ii
+jU
+zD
+VX
+VX
+pq
 EP
 Ot
 qF
@@ -18025,32 +18502,32 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+Ot
+jN
+jN
+jN
+Ot
+hK
+hY
+rb
+jN
+WX
+WX
+WX
+rb
+qj
+jN
+jN
+jN
+jN
+jN
+XF
 nb
 VX
 VX
 VX
 VX
-jN
+pq
 EP
 qF
 qF
@@ -18282,32 +18759,32 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-nb
-VX
-VX
-VX
-VX
+Ot
+In
 jN
+Pb
+Ot
+jN
+jN
+rb
+bV
+bV
+bV
+bV
+rb
+Kn
+jN
+tr
+jN
+qE
+gf
+zo
+nb
+ev
+VX
+VX
+PH
+pq
 EP
 qF
 qF
@@ -18539,26 +19016,26 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+rb
+rb
+rb
+Ot
+Ot
+mr
+rb
+rb
+rb
+rb
+rb
+rb
+Ye
+zX
+Ot
+Nv
+Ot
+Qv
+rb
 rb
 rb
 rb
@@ -18799,31 +19276,31 @@ Jm
 Jm
 Jm
 Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-EP
-qF
+rb
+ml
+LO
+JT
+jN
+Ko
+zk
+BO
+Ot
+rb
+rb
+rb
+rb
+ta
+rb
+rb
+rb
+qc
+cg
+sl
+wZ
+yP
+eu
+vT
+eu
 qF
 qF
 qF
@@ -19056,36 +19533,36 @@ Jm
 Jm
 Jm
 Jm
+rb
+eE
+Po
+jN
+jN
+LO
+ig
+jN
+ZX
+Nv
+jN
+sl
+Ot
+Nv
+Ot
+Ot
+Ot
+JV
+jN
+jN
+nJ
+jN
+qH
+fC
+qH
 qF
 qF
 qF
 qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+nt
 qF
 qF
 qH
@@ -19313,31 +19790,31 @@ Jm
 Jm
 Jm
 Jm
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
-qF
+rb
+JT
+tm
+bR
+jN
+hY
+jN
+bR
+au
+Nv
+jN
+jN
+JT
+jN
+AO
+Nv
+ZX
+jN
+jN
+jN
+jN
+jN
+eu
+aO
+eu
 qF
 qF
 qF
@@ -19570,30 +20047,30 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+rb
+jN
+eE
+jN
+jN
+LO
+ig
+jN
+Ot
+Ot
+zY
+jN
+jN
+jN
+aR
+Ot
+Ot
+jN
+jN
+jN
+jN
+cq
+nb
+EP
 Jm
 Jm
 Jm
@@ -19827,30 +20304,30 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+rb
+bR
+jN
+JT
+jN
+LO
+ig
+hY
+Ot
+rr
+jN
+hK
+jN
+hY
+jN
+jN
+Ot
+DB
+tE
+jN
+jN
+NN
+nb
+EP
 Jm
 Jm
 Jm
@@ -20084,30 +20561,30 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+JW
+JW
+JW
+jN
+NP
+NP
+JR
+Ot
+rr
+jN
+jN
+jN
+jN
+tE
+DB
+Ot
+Ao
+tE
+jN
+jN
+NN
+nb
+EP
 Jm
 Jm
 Jm
@@ -20341,30 +20818,30 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+Bz
+JW
+nH
+wt
+rU
+jN
+LO
+Ot
+rr
+jN
+jN
+jN
+jN
+tE
+DB
+Ot
+Jf
+JT
+jN
+hK
+NN
+nb
+EP
 Jm
 Jm
 Jm
@@ -20598,29 +21075,29 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+jN
+jN
+jN
+jN
+jN
+nb
 Jm
 Jm
 Jm
@@ -20855,40 +21332,40 @@ Jm
 Jm
 Jm
 Jm
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+rb
+rb
+BV
+Ot
+Ot
+Ot
+nb
 Jm
 Jm
 Jm
 Jm
 Jm
+nV
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+EP
+xr
+xr
 Jm
 Jm
 Jm
@@ -21112,39 +21589,39 @@ Jm
 Jm
 Jm
 Jm
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
+Ot
 Jm
 Jm
 Jm
 Jm
 Jm
+xr
+xr
+rb
+jN
+jN
+jN
+jN
+nb
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
 Jm
 Jm
 Jm
@@ -21385,22 +21862,22 @@ Jm
 Jm
 Jm
 Jm
+xr
+rb
+Wo
+dA
+dA
+dA
+nb
 Jm
 Jm
+EP
 Jm
+EP
 Jm
+EP
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+EP
 Jm
 Jm
 Jm
@@ -21642,23 +22119,23 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+xr
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
+rb
 Jm
 Jm
 Jm
@@ -21899,23 +22376,23 @@ Jm
 Jm
 Jm
 Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
-Jm
+Bx
+Bx
+Bx
+Bx
+Bx
+Bx
+Bx
+Bx
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
+xr
 Jm
 Jm
 Jm
