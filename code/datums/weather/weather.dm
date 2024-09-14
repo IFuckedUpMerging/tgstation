@@ -12,6 +12,10 @@
 	var/name = "space wind"
 	/// description of weather
 	var/desc = "Heavy gusts of wind blanket the area, periodically knocking down anyone caught in the open."
+	/// the glow mask's icon
+	var/glow_icon = 'icons/effects/glow_weather.dmi'
+	/// the weather effect's icon
+	var/weather_icon = 'icons/effects/weather_effects.dmi'
 	/// The message displayed in chat to foreshadow the weather's beginning
 	var/telegraph_message = "<span class='warning'>The wind begins to pick up.</span>"
 	/// In deciseconds, how long from the beginning of the telegraph until the weather begins
@@ -260,11 +264,11 @@
 		// I prefer it to creating 2 extra plane masters however, so it's a cost I'm willing to pay
 		// LU
 		if(use_glow)
-			var/mutable_appearance/glow_overlay = mutable_appearance('icons/effects/glow_weather.dmi', weather_state, overlay_layer, null, ABOVE_LIGHTING_PLANE, 100, offset_const = offset)
+			var/mutable_appearance/glow_overlay = mutable_appearance(glow_icon, weather_state, overlay_layer, null, ABOVE_LIGHTING_PLANE, 100, offset_const = offset)
 			glow_overlay.color = weather_color
 			gen_overlay_cache += glow_overlay
 
-		var/mutable_appearance/weather_overlay = mutable_appearance('icons/effects/weather_effects.dmi', weather_state, overlay_layer, plane = overlay_plane, offset_const = offset)
+		var/mutable_appearance/weather_overlay = mutable_appearance(weather_icon, weather_state, overlay_layer, plane = overlay_plane, offset_const = offset)
 		weather_overlay.color = weather_color
 		gen_overlay_cache += weather_overlay
 
