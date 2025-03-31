@@ -195,10 +195,15 @@
 	var/turf/closed/mineral/M = T
 	M.mineralAmt = 0
 	M.gets_drilled()
-	baseturfs = /turf/open/openspace/icemoon //This is to ensure that IF random turf generation produces a openturf, there won't be other turfs assigned other than openspace.
+	baseturfs = initial(baseturfs) //This is to ensure that IF random turf generation produces a openturf, there won't be other turfs assigned other than openspace.
 
 /turf/open/openspace/icemoon/keep_below
 	drill_below = FALSE
+
+/turf/open/openspace/icemoon/lavaland // this path fucking sucks; thank god for april fools
+	name = "ashen chasm"
+	baseturfs = /turf/open/openspace/icemoon/lavaland
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
 
 /turf/open/openspace/xenobio
 	name = "xenobio bz air"

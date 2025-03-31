@@ -102,3 +102,6 @@
 /area/ruin/unpowered/ratvar
 	outdoors = TRUE
 	ambient_buzz = 'sound/ambience/lavaland/magma.ogg'
+
+/// Based directly off of the old /tg/station engineering wing. Not technically a real ruin template; and kinda fugly. April Fools is a time for halfassing; isn't it?
+/area/ruin/unpowered/ancient_engineering_sat

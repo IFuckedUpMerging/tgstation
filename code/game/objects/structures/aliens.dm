@@ -100,6 +100,13 @@
 	desc = "Thick material shaped into a wall. Yuck."
 	color = "#8EC127"
 
+/obj/structure/alien/resin/wall/sculk
+	name = "sculk wall"
+	desc = "Rather ominous."
+	icon = 'icons/obj/smooth_structures/sculk/sculk_wall.dmi'
+	icon_state = "sculk_wall-0"
+	base_icon_state = "sculk_wall"
+
 /obj/structure/alien/resin/membrane
 	name = "resin membrane"
 	desc = "Resin just thin enough to let light pass through."
@@ -312,6 +319,12 @@
 	desc = "A thick gelatinous surface covers the floor.  Someone get the galoshes."
 	color = "#4BAE56"
 
+/obj/structure/alien/weeds/sculk
+	name = "sculk"
+	desc = "Hope you brought a hoe."
+	icon = 'icons/obj/smooth_structures/sculk/sculk.dmi'
+	icon_state = "sculk-0"
+	base_icon_state = "sculk"
 
 #undef NODERANGE
 

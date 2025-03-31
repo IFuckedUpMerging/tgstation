@@ -26,6 +26,10 @@
 	slowdown = 0.5
 	initial_gas_mix = OPENTURF_DEFAULT_ATMOS
 
+/turf/open/misc/dirt/jungle/lavaland
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	baseturfs = /turf/open/chasm/jungle/lavaland
+
 /turf/open/misc/dirt/dark
 	icon_state = "greenerdirt"
 	base_icon_state = "greenerdirt"
@@ -77,6 +81,7 @@
 
 /turf/open/misc/grass/jungle/lavaland
 	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	baseturfs = /turf/open/chasm/jungle/lavaland
 
 /turf/open/misc/grass/jungle/station
 	baseturfs = /turf/open/misc/dirt/station

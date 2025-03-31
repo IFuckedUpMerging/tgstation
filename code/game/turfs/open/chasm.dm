@@ -122,10 +122,13 @@
 	underlay_appearance.icon_state = /turf/open/misc/dirt::icon_state
 	return TRUE
 
+/turf/open/chasm/jungle/lavaland
+	initial_gas_mix = LAVALAND_DEFAULT_ATMOS
+	baseturfs = /turf/open/chasm/jungle/lavaland
+
 // Chasm that doesn't do any z-level nonsense and just kills/stores whoever steps into it.
 /turf/open/chasm/true
 	desc = "There's nothing at the bottom. Absolutely nothing."
-	baseturfs = /turf/open/chasm/true
 
 /turf/open/chasm/true/apply_components(mapload)
 	AddComponent(/datum/component/chasm, null, mapload) //Don't pass anything for below_turf.

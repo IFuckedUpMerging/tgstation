@@ -159,6 +159,10 @@
 	ambience_index = AMBIENCE_MINING
 	area_flags = VALID_TERRITORY | UNIQUE_AREA | FLORA_ALLOWED
 
+/area/lavaland/underground/junglegen
+	name = "Lavaland Lush Caves"
+	map_generator = /datum/map_generator/cave_generator/lavaland/junglegen
+
 /area/lavaland/surface/outdoors
 	name = "Lavaland Wastes"
 	outdoors = TRUE
